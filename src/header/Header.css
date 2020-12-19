@@ -15,7 +15,7 @@
     margin-left: 10px;
     margin-right: 10px;
     font-size: 30px;
-    color: #fff;
+    color: #ffffff;
     letter-spacing: 5px;
 }
 .header__search {
@@ -38,7 +38,7 @@
     justify-content: space-evenly;
   }
   
-  .header__link {
+  .header_link {
     color: white;
     text-decoration: none;
   }
@@ -57,3 +57,13 @@
     font-weight: bold;
 
   }
+  .header__optionBasket {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__basketCount {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  

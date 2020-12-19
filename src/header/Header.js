@@ -3,8 +3,10 @@ import logo from "../images/logo.png";
 import { Link } from "react-router-dom";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingCart from "@material-ui/icons/ShoppingCart";
+import { useStateValue } from "../StateProvider";
 import "./Header.css";
 function Header() {
+
     return (
             <nav  className="header">
                 {/*Logo */}
@@ -28,6 +30,21 @@ function Header() {
 
 
                  </Link>
+                 <Link to="/register" className="header_link" >
+                     <div className="header_option" >
+                         <span className="header_lineOne">New User</span>
+                         <span className="header_lineTwo" > Register</span>
+                     </div>
+                 </Link>
+                 <Link to="/checkout" className="header_link">
+          <div className="header_optionBasket">
+            <ShoppingCart />
+            <span className="header_lineTwo header_basketCount">
+      
+            </span>
+          </div>
+        </Link>
+
                  </div>
 
 
