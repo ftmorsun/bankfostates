@@ -14,7 +14,7 @@ function Header() {
                     <img className="header_logo" src={logo} alt=""/>
                 </Link>
                 <div>
-                    <span className="header_title">Bank of States</span>
+                    <span className="header_title">Orsun Bank</span>
                 </div>
                 <div className="header__search">
                     <input type="text" className="header_searchInput" />
