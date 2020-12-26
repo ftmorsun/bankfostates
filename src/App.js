@@ -26,7 +26,7 @@ function App() {
           {/*This is Default Page */}
           <Route path="/">
             <Home />
-            <About />
+      
           </Route>
         </Switch>
 
