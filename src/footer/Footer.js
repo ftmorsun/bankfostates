@@ -17,12 +17,12 @@ function Footer() {
                 <div className="widget">
                   <Link className="widget-title" to={"/"}>
                     <img className="footer__logo" src={logo} alt="logo" />
-                    Bank of States
+                    Orsun Bank
                   </Link>
                   <ul className="widget-list">
-                    <li>112, West road, F1 456 Tram Town.</li>
+                    <li>112, AHS  </li>
                     <li>Office No 2312</li>
-                    <li>info@bankofstates.com</li>
+                    <li>info@orsunbank.com</li>
                     <li>234-3434567</li>
                   </ul>
                 </div>
@@ -120,7 +120,7 @@ function Footer() {
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="copy-right text-lg-right text-center">
-                @ 2020, Bank of States all right reserved
+                @ 2020, Orsun Bank all right reserved
               </div>
             </div>
           </div>

@@ -7,7 +7,7 @@
       ##Footer
   ---------------------------------------------------*/
   .footer-area {
-    background-color: teal;
+    background-color: #c9c0bb;
     background-position: center;
     background-size: cover;
     margin-top: 5px;
@@ -45,7 +45,7 @@
   }
   
   .footer-inner-2 .widget-contact .social-area li a:hover {
-    background: #ff536d;
+    background: #8b0000;
   }
   
   /*---------------------------------------------------
@@ -111,7 +111,7 @@
     transition: all 0.3s ease-in;
   }
   .social-area li a:hover {
-    background: #377dff;
+    background: #8b0000;
     color: #fff;
   }
   .social-area li:first-child a {
